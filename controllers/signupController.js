@@ -19,3 +19,4 @@ const signupHandler = async(req, res) => {
 }
 
 module.exports = signupHandler
+
