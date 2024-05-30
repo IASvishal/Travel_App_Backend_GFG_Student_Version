@@ -23,7 +23,7 @@ app.use(cors());
 app.use(express.json());
 connectDB();
 
-const PORT = 5500;
+const PORT = 3500;
 app.get('/', (req, res) => {
     res.send("Hello World")
 })
